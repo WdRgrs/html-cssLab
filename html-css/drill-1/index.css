@@ -1,0 +1,47 @@
+.black {
+    background: rgb(31, 31, 31);
+    height: 10%;
+    width: 68%;
+    left: 16%;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+    top: 90%;
+    overflow-x: visible;
+}
+
+.dGrey {
+    background: rgb(68, 68, 68);
+    height: 16.5%;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    overflow-x: visible;
+}
+
+.white {
+    background: white;
+    height: 100%;
+    width: 68%;
+    left: 16%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    overflow-x: visible;
+}
+
+.grey {
+    background: rgb(212, 212, 212);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: visible;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}

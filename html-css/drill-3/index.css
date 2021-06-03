@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------------------ Coding fun times -------------------------------------------------------- */
+
+
+.top {
+    background: #D8D8D8;
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: visible;
+    display: block;
+}
+
+#blueSquare {
+    background: #4A90E2;
+    height: 63px;
+    width: 63px;
+    margin-top: 8px;
+    margin-left: 17px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    overflow-x: visible;
+    display: block;
+}
+
+.body {
+    background: #ffffff;
+    height: 18vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 12vh;
+    padding: 5vh;
+}
+
+.bodyText {
+    margin-top: 8px;
+    background: white;
+    text-align: left;
+    width: 88%;
+    font-size:2.8vh;
+    line-height: 1.2;
+}
+
+
+.color1 {
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 40vh;
+    left: 0;
+    background-color: #4A90E2;
+    overflow-x: hidden;
+    display: block;
+}
+
+.color2 {
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 55vh;
+    left: 0;
+    background-color: #50E3C2;
+    overflow-x: hidden;
+    display: block;
+}
+
+.color3 {
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 70vh;
+    left: 0;
+    background-color: #B8E986;
+    overflow-x: hidden;
+    display: block;
+}
+
+.color4 {
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 85vh;
+    left: 0;
+    background-color: #F8E71C;
+    overflow-x: hidden;
+    display: block;
+}
+
+/*
+#color {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    display: block;
+}
+
+
+*/
